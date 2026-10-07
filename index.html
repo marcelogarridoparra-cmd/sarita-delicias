@@ -238,9 +238,8 @@ input[type="range"]{width:100%;accent-color:var(--rosa)}
 .cuidado .tip{font-family:var(--f-hand);color:var(--manjar);font-size:1.02rem;line-height:1.35}
 
 /* Sobre */
-.sobre{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:center}
-.sobre img{width:100%;border-radius:22px;box-shadow:var(--shadow);transform:rotate(-2deg)}
-.sobre .txt{display:flex;flex-direction:column;gap:16px}
+.sobre{display:block}
+.sobre .txt{display:flex;flex-direction:column;gap:16px;max-width:760px}
 .sobre .txt p{font-size:1.1rem}
 .firma{font-family:var(--f-script);font-size:2rem;color:var(--rosa)}
 
@@ -500,7 +499,6 @@ details p{padding-bottom:16px;color:var(--muted)}
 
 <section id="sobre" style="padding-top:24px">
   <div class="wrap sobre">
-    <img src="img/cerradas.jpg" alt="Bandejas de Sarita Delicias cerradas, con tarjeta rosada y el número para pedidos">
     <div class="txt">
       <span class="kicker">Quién hornea</span>
       <h2>Hola, soy Valentina</h2>
